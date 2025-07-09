@@ -1,0 +1,40 @@
+body{
+    margin: 1;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4efde;
+}
+h1{
+    text-align: center;
+}
+
+#ofertas{
+    background: #f5f2eb;
+    padding: 40px 20px;
+    text-align: center;
+}
+#ofertas h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #483e1a;
+}
+.ofertas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre tarjetas */
+  justify-items: center; /* Centra las tarjetas dentro de cada columna */
+
+}
+.libro-oferta img {
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .libro-oferta {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  

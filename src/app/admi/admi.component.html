@@ -1,0 +1,71 @@
+<h1 class="text-center mb-4">Agregar Libro a la Librería</h1>
+
+<form id="formulario-libro" class="container bg-white p-4 rounded shadow-sm mb-5">
+  <div class="mb-3">
+    <label for="titulo" class="form-label">Título:</label>
+    <input type="text" id="titulo" name="titulo" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="autor" class="form-label">Autor:</label>
+    <input type="text" id="autor" name="autor" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="anio" class="form-label">Año de Publicación:</label>
+    <input type="number" id="anio" name="anio" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="genero" class="form-label">Género:</label>
+    <input type="text" id="genero" name="genero" class="form-control" required>
+  </div>
+
+  <button type="submit" class="btn btn-dark w-100">Agregar Libro</button>
+</form>
+
+<div class="container">
+  <table class="table table-striped table-bordered shadow-sm bg-white">
+    <thead class="table-dark">
+      <tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año</th>
+        <th>Género</th>
+        <th>Acciones</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Love on the brain</td>
+        <td>Ali Hazelwood</td>
+        <td>2023</td>
+        <td>Romance</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Check and mate</td>
+        <td>Ali Hazelwood</td>
+        <td>2024</td>
+        <td>Romance</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Deep end</td>
+        <td>Ali Hazelwood</td>
+        <td>2025</td>
+        <td>Romance</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

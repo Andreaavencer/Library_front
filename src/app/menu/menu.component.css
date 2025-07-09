@@ -1,0 +1,23 @@
+.barra{
+    background-color: #483e1a;
+    padding: 10px 0 ;
+    text-align: center;
+}
+.barra ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 30px;
+}
+.barra ul li a{
+    color:#f4efde; 
+    text-decoration: none;
+    Font-weight: bold;
+    padding: 10px 20px;
+    transition: #483e1a 0.3s
+}
+.barra ul li a:hover{
+    background-color:#ece3c3;
+    border-radius: 5px;
+}

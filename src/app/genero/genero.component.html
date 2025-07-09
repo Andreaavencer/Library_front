@@ -1,0 +1,55 @@
+<h1 class="text-center mb-4">Agregar Libro a la Librería</h1>
+
+<form id="formulario-libro" class="container bg-white p-4 rounded shadow-sm mb-5">
+  <div class="mb-3">
+    <label for="titulo" class="form-label">Género:</label>
+    <input type="text" id="titulo" name="titulo" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="titulo" class="form-label">Id:</label>
+    <input type="text" id="titulo" name="titulo" class="form-control" required>
+  </div>
+
+  <button type="submit" class="btn btn-dark w-100">Agregar Libro</button>
+</form>
+
+<div class="container">
+  <table class="table table-striped table-bordered shadow-sm bg-white">
+    <thead class="table-dark">
+      <tr>
+        <th>Género</th>
+        <th>ID</th>
+        <th></th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Romance</td>
+         <td>1</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Fantasía</td>
+         <td>2</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Misterio</td>
+         <td>3</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

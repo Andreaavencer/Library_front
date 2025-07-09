@@ -1,0 +1,70 @@
+<h1 class="text-center mb-4">Agregar Autor</h1>
+
+<form id="formulario-libro" class="container bg-white p-4 rounded shadow-sm mb-5">
+  
+
+  <div class="mb-3">
+    <label for="autor" class="form-label">Nombre del autor:</label>
+    <input type="text" id="autor" name="autor" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="editorial" class="form-label">Editorial:</label>
+    <input type="number" id="anio" name="anio" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="Correo" class="form-label">Correo:</label>
+    <input type="email" id="genero" name="genero" class="form-control" required>
+  </div>
+
+  <button type="submit" class="btn btn-dark w-100">Agregar Autor</button>
+</form>
+
+<div class="container">
+  <table class="table table-striped table-bordered shadow-sm bg-white">
+    <thead class="table-dark">
+      <tr>
+    
+        <th>Nombre del autor.</th>
+        <th>Editorial</th>
+        <th>Correo</th>
+        <th></th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>Ali Hazelwood</td>
+        <td>Ken</td>
+        <td>aligmail.com</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        
+        <td>Ana Huang</td>
+        <td>kora</td>
+        <td>anagmail.com</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+   
+        <td>Alice Kellen</td>
+        <td>Joler</td>
+        <td>alicegmail.com</td>
+        <td>
+          <button class="btn btn-success btn-sm me-2">Editar</button>
+          <button class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
